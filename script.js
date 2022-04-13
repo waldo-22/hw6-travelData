@@ -16,7 +16,12 @@ fetch(`https://api.openweathermap.org/geo/1.0/direct?q=Minneapolis&appid=${apiKe
     console.log(cityData);
 })
 }
-
+// let timeDisplayEl = $('#time-display');
+// function displayTime() {
+//     let rightNow = moment().format('MMM DD, YYYY');
+//     timeDisplayEl.text(rightNow);
+// }
+// let timeDisplayEl = $('#time-display');
 
 // let inputSearch = "#text"
 // if (inputSearch === true) {
