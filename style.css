@@ -1,0 +1,106 @@
+.alert-success {
+    text-align: center;
+    background-color: rgba(10, 92, 192, 0.834);
+    color: antiquewhite;
+
+}
+
+.bigBox {
+    /* border: solid 2px black; */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+.showConditions{
+    border: solid 2px black;
+    text-align: left;
+
+
+}
+
+.smallBox {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+}
+
+.daysBox{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.searchBoxarea {
+    width: 25%;
+    height: 600px;
+}
+.searchResultArea {
+    /* border: solid 2px black; */
+    width: 75%;
+    text-align: left;
+    height: 600px;
+}
+
+.this {
+    border-style: solid;
+    border-color: black;
+
+}
+
+.card1 {
+    border: solid 2px black;
+    width: 70px;
+    width: 18%;
+    height: 250px;
+    margin: 5px;
+    background-color: rgba(3, 30, 113, 0.637);
+    color: beige;
+
+}
+
+.card2 {
+    border: solid 2px black;
+    width: 70px;
+    width: 18%;
+    height: 250px;
+    margin: 5px;
+    background-color: rgb(3, 30, 113, 0.637);
+    color: beige; 
+
+}
+
+.card3 {
+    border: solid 2px black;
+    width: 70px;
+    width: 18%;
+    height: 250px;
+    margin: 5px;
+    background-color: rgb(3, 30, 113, 0.637);
+    color: beige; 
+
+}
+
+.card4 {
+    border: solid 2px black;
+    width: 70px;
+    width: 18%;
+    height: 250px;
+    margin: 5px;
+    background-color: rgb(3, 30, 113, 0.637);
+    color: beige; 
+
+}
+
+.card5 {
+    border: solid 2px black;
+    width: 70px;
+    width: 18%;
+    height: 250px;
+    margin: 5px;
+    background-color: rgb(3, 30, 113, 0.637);
+    color: beige;
+
+}
