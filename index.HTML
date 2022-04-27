@@ -28,16 +28,16 @@
             </div>
             <input id="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
         </div>
-        <button>Clear History</button>
+        <div id = "historyDisplay">Recently Searched:</div>
         </section>
         
         <section class ="searchResultArea">
             <section id= "showConditions">
-            <h3>Atlanta (3/30/2021)☁️</h3>
-            <p>Temp:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-            <p>Uv-Index:</p>
+            <h3><span id ="citySearched"></span> <span id = "time-display"></span></h3>
+            <p>Temp:<span id = "currentTemp"></span>°F</p>
+            <p>Wind:<span id = "currentWind"></span></p>
+            <p>Humidity:<span id = "currentHumidity"></span></p>
+            <p>Uv-Index:<span id = "currentUv"></span></p>
         </section>
         <section class="smallBox">
         <h3>5-Day Forecast:</h3>
@@ -45,47 +45,47 @@
         <section class= "daysBox">
             <div class="card1">
                 <div class="card-body">
-                    <h4 class="card-title">Day1</h4>
+                    <h4 class="day1">Day 1</h4>
                     <h6 class="card-subtitle mb-2 text-muted">🌦️</h6>
-                    <p>Temp: 73.72°F</p>
-                    <p>Wind: 9.53 MPH</p>
-                    <p>Humidity: 66%</p>
+                    <p>Temp:<span id = "tempDay1"></span>°F</p>
+                    <p>Wind:<span id = "windDay1"></span></p>
+                    <p>Humidity:<span id = "humidityDay1"></span></p>
                 </div>
             </div>
             <div class="card2">
                 <div class="card-body">
-                    <h4 class="card-title">Day2</h4>
+                    <h4 class="day2">Day 2</h4>
                     <h6 class="card-subtitle mb-2 text-muted">🌦️</h6>
-                    <p>Temp: 73.72°F</p>
-                    <p>Wind: 9.53 MPH</p>
-                    <p>Humidity: 66%</p>
+                    <p>Temp:<span id = "tempDay2"></span>°F</p>
+                    <p>Wind:<span id = "windDay2"></span></p>
+                    <p>Humidity:<span id = "humidityDay2"></span></p>
                 </div>
             </div>
             <div class="card3">
                 <div class="card-body">
-                    <h4 class="card-title">Day3</h4>
+                    <h4 class="day3">Day 3</h4>
                     <h6 class="card-subtitle mb-2 text-muted">☀️</h6>
-                    <p>Temp: 73.72°F</p>
-                    <p>Wind: 9.53 MPH</p>
-                    <p>Humidity: 66%</p>
+                    <p>Temp:<span id = "tempDay3"></span>°F</p>
+                    <p>Wind:<span id = "windDay3"></span></p>
+                    <p>Humidity:<span id = "humidityDay3"></span></p>
                 </div>
             </div>
             <div class="card4">
                 <div class="card-body">
-                    <h4 class="card-title">Day4</h4>
+                    <h4 class="day4">Day 4</h4>
                     <h6 class="card-subtitle mb-2 text-muted">🌥️</h6>
-                    <p>Temp: 73.72°F</p>
-                    <p>Wind: 9.53 MPH</p>
-                    <p>Humidity: 66%</p>
+                    <p>Temp:<span id = "tempDay4"></span>°F</p>
+                    <p>Wind:<span id = "windDay4"></span></p>
+                    <p>Humidity:<span id = "humidityDay4"></span></p>
                 </div>
             </div>
             <div class="card5">
                 <div class="card-body">
-                    <h4 class="card-title">Day5</h4>
+                    <h4 class="day5">Day 5</h4>
                     <h6 class="card-subtitle mb-2 text-muted">☀️</h6>
-                    <p>Temp: 73.72°F</p>
-                    <p>Wind: 9.53 MPH</p>
-                    <p>Humidity: 66%</p>
+                    <p>Temp:<span id = "tempDay5"></span>°F</p>
+                    <p>Wind:<span id = "windDay5"></span></p>
+                    <p>Humidity:<span id = "humidityDay5"></span></p>
                 </div>
             </div>
         </section>
@@ -97,6 +97,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
     <script src="./script.js"></script>
 </html>
